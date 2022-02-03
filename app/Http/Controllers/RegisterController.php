@@ -96,13 +96,13 @@ class RegisterController extends Controller
         if ($datos->nombre == "") {
             $resultado = "Debes agregar el nombre!";
         }else if ( strlen($datos->nombre) > 25) {
-            $resultado = "El nombre solo puede ser mayor a 25 caracteres!";
+            $resultado = "El nombre no puede ser mayor a 25 caracteres!";
         }
 
         if ($datos->apellido == "") {
             $resultado = "Debes agregar el apellido!";
         }else if ( strlen($datos->apellido) > 25) {
-            $resultado = "El apellido solo puede ser mayor a 25 caracteres!";
+            $resultado = "El apellido no puede ser mayor a 25 caracteres!";
         }
 
         if ($datos->tel == "") {
