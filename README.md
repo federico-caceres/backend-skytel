@@ -27,5 +27,5 @@ Ingresar al link http://127.0.0.1:8000/
 
 ### Testing de servicios con Postman
 * [Postman](https://www.postman.com/downloads/) - Test Services
-* [Project Postman]() - Test Services
+* [Project Postman](https://github.com/ramagoz/backend-skytel/blob/main/doc/Skytel.postman_collection.json) - Test Services
 
